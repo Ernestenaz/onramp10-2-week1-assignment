@@ -1,0 +1,85 @@
+ /* .body{
+   
+}  */
+.container{
+    position: relative;
+    background-color: hsl(225, 100%, 94%);
+    width: 1440px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    
+
+    
+} 
+.card-container{
+    margin-top: 150px;
+    position: absolute;
+    margin-left: 500px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+.hero-image{
+    
+    border-radius: 10px;
+}
+.order-summary{
+    text-align: center;
+    position: flex;
+    justify-items: center;
+    margin: 10px 80px;
+    
+
+}
+
+.money{
+color: rgb(82, 80, 80); ;
+}
+.naration{
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+    justify-content: center;
+    color: grey;
+}
+.annual-plan{
+    border-radius: 10px;
+    margin: 10px 10px 10px 25px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: hsl(225, 100%, 98%);
+    width: 400px;
+    height: 100px;
+}
+.music{
+    margin: 30px 0px;
+    
+}
+.change{
+    color: blue;
+    margin-left: 25px;
+    margin:30px;
+    text-decoration: underline;
+}
+.money{
+    color: grey;
+}
+.proceed{
+    margin: 10px 10px 10px 25px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    box-shadow: 8px 4px 15px 1px #5a67ddd2;
+    width: 400px;
+    
+
+}
+.cancel{
+    margin: 3px 180px;
+    color: hsl(223, 47%, 23%)
+}
